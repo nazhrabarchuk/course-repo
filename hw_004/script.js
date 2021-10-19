@@ -28,7 +28,7 @@ function compareNumbers(a, b) {
     if ((typeof a || typeof b) !== 'number') {
         throw new Error('arg must be a number');
     }
-    return (a || b) === 50 || a + b === 50;
+    return a === 50 || b === 50 || a + b === 50;
 }
 
 function checkMultiple(int) {
