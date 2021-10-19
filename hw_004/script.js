@@ -17,11 +17,11 @@ function isBigger(int) {
     return int > 100;
 }
 
-function largerNumber(a, b) {
-    if ((typeof a || typeof b) !== 'number') {
+function largerNumber(a, b, c) {
+    if ((typeof a || typeof b || typeof c) !== 'number') {
         throw new Error('arg must be a number');
     }
-    return a > b;
+    return a > b && a > c;
 }
 
 function compareNumbers(a, b) {
