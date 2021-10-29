@@ -25,7 +25,7 @@ export default class Car extends Vehicle{
     setType(type){
         this.type = type;
         return this;
-    }
+    } 
 
     setCarStatus(status){
         this.status = status;
