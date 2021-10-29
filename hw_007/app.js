@@ -21,7 +21,7 @@ opel.increaseSpeed(75);
 tesla.increaseSpeed(125);
 
 
-const truck = new Truck('Putin',2012, 120, true);
+const truck = new Truck('DAF',2012, 120, true);
 truck.increaseSpeed(80);
 
 const race = new SpeedRace(tesla, opel, truck);
