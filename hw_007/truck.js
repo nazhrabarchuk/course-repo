@@ -12,16 +12,14 @@ export default class Truck extends Vehicle{
     }
 
     displayInfo(){
-        console.log(`Truck:`);
+        console.log(`
+        |^^^^^^^^^^^^^^^^^^\||____
+        |  The Truck ${this.model}  |||""|""\\___
+        | _______________ |||__|__|___|)
+        ...|(@)@)""""""""**|(@)(@)**|(@)
+        `)
     }
-
-
-    /**
-     * If truck has contaoner then minus max speed
-     * @returns {JSON}
-     */
     race(){
-
         return {
             model: this.model,
             speed: this.container && this.speed != 0 ? this.speed - 5 :  this.speed

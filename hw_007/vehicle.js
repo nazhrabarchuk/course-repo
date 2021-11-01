@@ -24,12 +24,6 @@ export default class Vehicle {
     increaseSpeed(increment){
         this.speed = this.speed + increment;
     }
-
-
-    /**
-     * Return max speed for play race
-     * @returns {JSON}
-     */
     race(){
         return {
             model: this.model,

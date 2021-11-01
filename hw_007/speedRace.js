@@ -1,5 +1,3 @@
-
-
 export default class SpeedRace{
     constructor(...vehicle){
         this.vehicle = [...vehicle];
@@ -16,18 +14,10 @@ export default class SpeedRace{
         });
     }
 
-    run(){
-       
-        
-        const vehicle = this.#parseSpeed();
-
-        
-        for(let place in vehicle){
-            
-            console.log(`Place #${(+place + 1)} has model ${vehicle[place].model} with max speed ${vehicle[place].speed}`)
-
-        }
-
-    
+    run(){   
+        const vehicle = this.#parseSpeed();      
+        for(let place in vehicle){         
+            console.log(`Place #${(+place + 1)} has model ${vehicle[place].model}, with speed ${vehicle[place].speed}`)
+        }    
     }
 }

@@ -5,11 +5,8 @@ export default class Car extends Vehicle{
         super(carModel,carYear, maxSpeed)
         this.type = 'petrol';
         this.fuel = fuel;
-    }
-
-    
+    }   
     static createPetrolCar(carModel, carYear,maxSpeed, fuel){
-        
         const car = new Car(carModel, carYear, maxSpeed, fuel);
     
         if(car > 2017){

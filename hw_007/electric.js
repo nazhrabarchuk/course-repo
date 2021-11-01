@@ -12,7 +12,7 @@ export default class Electric extends Vehicle {
     }  
 
     charge() {
-        console.log(`Charging to 100%`)
+        console.log(`Charging ${this.model} to 100%`)
         this.level = 100;
     }
     displayInfo(){
