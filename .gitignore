@@ -21,3 +21,7 @@
 
 # idea files
 .idea/
+
+#node modules files
+node_modules/
+package-lock.json
