@@ -21,8 +21,6 @@ function calculator(num1, num2, operation) {
     }
     
 }
-console.log(calculator(5, 10, '-'));
-
 export{
     calculator
 };
