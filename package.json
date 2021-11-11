@@ -5,7 +5,6 @@
   "packages": {},
   "type": "module",
   "devDependencies": {
-    "file-system": "^2.2.2",
     "randomstring": "^1.2.1"
   }
 }
