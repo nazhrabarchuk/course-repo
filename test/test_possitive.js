@@ -3,8 +3,7 @@ import {calculator} from "../app.js"
 
 describe("Fields of positive tests for calculator function", function() {
         it('calculator function should return type number', ()=>{
-            let result = calculator(1,1,'+');
-            assert.typeOf(result, 'number');
+            assert.typeOf(calculator(1,1,'+'), 'number');
         });
         it('I expect 8 when adding 5 + 3', ()=>{
             expect(calculator(5,3,'+')).to.eq(8);
