@@ -1,6 +1,5 @@
 function calculator(num1, num2, operation) {
     const operations = ['+', '-', '/', '*'];
-
     if(!operations.includes(operation)){
         throw Error('Wrong operation!');
     }
@@ -24,10 +23,7 @@ function calculator(num1, num2, operation) {
         case '*':
             return num1 * num2;
     }
-
    }
-    
-
 export{
     calculator
 };
